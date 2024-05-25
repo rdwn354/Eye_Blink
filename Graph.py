@@ -73,12 +73,13 @@ class ShowGraph:
         treadline = intercept + slope * x
 
         plt.subplot(1, 2, 1)
-        plt.plot(blink)
-        plt.plot(treadline, label=f'Garis Tren {trend_direction}', color='red', linewidth=1)
+        plt.plot(blink, label='blink count')
+        plt.plot(treadline, label=f'Trendline {trend_direction}', color='red', linewidth=1)
         plt.xlabel('Time (minute)')
         plt.ylabel('Blink')
         plt.title('Blink Count')
         plt.axhline(y=10, color='r', linestyle='--', linewidth=1)
+        plt.legend(fontsize='small')
 
         lowest_value = min(blink)
         lowest_index = np.argmin(blink)
@@ -101,8 +102,9 @@ class ShowGraph:
         else:
             diagnose = "Normal"
 
-        print(status)
-        print(trend_direction)
+        # print(status)
+        # print(trend_direction)
+
         plt.subplot(1, 2, 2)
         plt.text(0, 0.8, f'Total time : {len(blink)} minutes', fontsize=8)
         plt.text(0, 0.7, f'Blink under set point : {values_under_10} times', fontsize=8)
