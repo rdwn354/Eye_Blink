@@ -1,6 +1,13 @@
 import csv
+import os
+
 import matplotlib.pyplot as plt
 import numpy as np
+
+data = os.listdir("Record/backup")
+backup_files_row = ", ".join(data)
+print("here's for data : ")
+print(backup_files_row, end="\n\n")
 
 csv_file = input("Input name: ")
 time = int(input("Input time: "))
@@ -58,15 +65,28 @@ class ShowGraph:
         screen_height_in = screen_height_px / desired_dpi
 
         fig = plt.figure(figsize=(screen_width_in, screen_height_in), dpi=desired_dpi)
+        # creating tren
+        x = np.arange(len(blink))
+        y = np.array(blink)
+        slope, intercept = np.polyfit(x, y, 1)
+
+        # Menentukan arah tren
+        if slope > 0:
+            trend_direction = "up"
+        elif slope < 0:
+            trend_direction = "down"
+        else:
+            trend_direction = "flat"
+
+        treadline = intercept + slope * x
 
         # Plot for blink counts
         plt.subplot(1, 2, 1)
         plt.plot(blink)
+        plt.plot(treadline, label=f'Garis Tren {trend_direction}', color='red', linewidth = 1)
         plt.xlabel('Time (minute)')
         plt.ylabel('Blink')
         plt.title('Blink Count')
-
-        plt.axhline(y=10, color='r', linestyle='--')
 
         lowest_value = min(blink)
         lowest_index = np.argmin(blink)
@@ -86,12 +106,12 @@ class ShowGraph:
             print("Highest element index: ", highest_index)
 
         plt.subplot(1, 2, 2)
-        plt.text(0, 0.9, f'Name: {csv_file}', fontsize=10)
-        plt.text(0, 0.8, f'Total time : {len(blink)} minutes', fontsize=10)
-        plt.text(0, 0.7, f'Blink under set point : {values_under_10} times', fontsize=10)
-        plt.text(0, 0.6, f'Lowest blink in minute {lowest_index} with {lowest_value} blinks', fontsize=10)
-        plt.text(0, 0.5, f'Highest blink in minute {highest_index} with {highest_value} blinks', fontsize=10)
-        plt.text(0, 0.4, f'Indicate : {"Computer Vision Syndrome" if status else "Normal"}', fontsize=10)
+        plt.text(0, 0.9, f'Name: {csv_file}', fontsize=8)
+        plt.text(0, 0.8, f'Total time : {len(blink)} minutes', fontsize=8)
+        plt.text(0, 0.7, f'Blink under set point : {values_under_10} times', fontsize=8)
+        plt.text(0, 0.6, f'Lowest blink in minute {lowest_index} with {lowest_value} blinks', fontsize=8)
+        plt.text(0, 0.5, f'Highest blink in minute {highest_index} with {highest_value} blinks', fontsize=8)
+        plt.text(0, 0.4, f'Indicate : {"Computer Vision Syndrome" if trend_direction == "down" else "Normal"}', fontsize=8)
 
         plt.xlim(0, 1)
         plt.ylim(0, 1)
@@ -101,7 +121,6 @@ class ShowGraph:
 
         # Display the plot
         plt.show()
-
 
 
 analyzer = BlinkAnalyzer(path_csv)

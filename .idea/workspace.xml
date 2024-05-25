@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827102d4-c9cd-49e6-8dda-7efa8206b3be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Final_code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recording.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/hello_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/random1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/secc_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/tes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/tes_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/tes_new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tes/validate_by_foto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,30 +35,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Calculate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Camera.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Graph.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Recording.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_tes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello_word.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.secc_validation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tes_new.executor&quot;: &quot;Run&quot;,
-    &quot;Python.validate_by_foto.executor&quot;: &quot;Run&quot;,
-    &quot;Python.video.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/00. Final Skripsi/Code/Final_code/Record/capture&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Calculate.executor": "Run",
+    "Python.Camera.executor": "Run",
+    "Python.Graph.executor": "Run",
+    "Python.Recording.executor": "Run",
+    "Python.calculate_tes.executor": "Run",
+    "Python.hello_word.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.random.executor": "Run",
+    "Python.random1.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.secc_validation.executor": "Run",
+    "Python.tes.executor": "Run",
+    "Python.tes_new.executor": "Run",
+    "Python.tren.executor": "Run",
+    "Python.validate_by_foto.executor": "Run",
+    "Python.video.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/00. Final Skripsi/Code/Final_code/Record/capture",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\00. Final Skripsi\Code\Final_code\Record\capture" />
