@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="827102d4-c9cd-49e6-8dda-7efa8206b3be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Final_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recording.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/hello_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/random1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/secc_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/tes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/tes_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/tes_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes/validate_by_foto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2gDOUI9wE5oS8ijEHAR817vtsyf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Calculate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Graph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Recording.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_tes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_word.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.secc_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tes_new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validate_by_foto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.video.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/00. Final Skripsi/Code/Final_code/Record/capture&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\00. Final Skripsi\Code\Final_code\Record\capture" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00. Final Skripsi\Code\Final_code" />
+      <recent name="D:\00. Final Skripsi\Code\Final_code\images\ridwan_ml_folder_1" />
+      <recent name="D:\00. Final Skripsi\Code\Final_code\images\ridwan_ml_folder_0" />
+      <recent name="D:\00. Final Skripsi\Code\Final_code\tes\images" />
+      <recent name="D:\00. Final Skripsi\Code\Final_code\tes\result1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Final_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="827102d4-c9cd-49e6-8dda-7efa8206b3be" name="Changes" comment="" />
+      <created>1715228695402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715228695402</updated>
+    </task>
+    <servers />
+  </component>
+</project>
